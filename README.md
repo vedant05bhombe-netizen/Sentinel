@@ -1,117 +1,137 @@
-Sentinel – Deepfake & Malicious URL Detector
+# 🛡️ Sentinel
 
-Sentinel is a React-based frontend application designed to detect deepfake media and malicious URLs.
-It provides an intuitive interface where users can upload media for deepfake analysis or submit URLs to check if they are potentially harmful.
+**Sentinel** is a web-based security tool that detects **Deepfake Media** and **Malicious URLs**.  
+It provides a simple **React frontend interface** where users can upload media or enter URLs to check whether they are **safe or suspicious**.
 
-The frontend communicates with backend APIs that perform the actual detection.
+---
 
-Features
+## 🚀 Features
 
-Deepfake image/video detection interface
+- 🎭 **Deepfake Detection**
+- 🔗 **Malicious URL Detection**
+- ⚡ **Fast React Interface**
+- 🧩 **API Ready Integration**
+- 🎨 **Simple & Clean UI**
 
-Malicious URL detection
+---
 
-Simple and clean UI
+## 🧑‍💻 Tech Stack
 
-Fast API integration
+**Frontend**
 
-Built using modern frontend technologies
+- React
+- Vite
+- JavaScript
+- CSS
 
-Tech Stack
+**Tools**
 
-Frontend Framework
+- ESLint
+- Git & GitHub
 
-React (Vite)
+---
 
-Languages
+## 📁 Project Structure
 
-JavaScript
-
-CSS
-
-Tools
-
-Vite
-
-ESLint
-
-Project Structure
+```
 Sentinel
 │
 ├── public
 │
 ├── src
-│   ├── assets            # Images and static assets
-│   ├── App.css           # Global app styling
-│   ├── App.jsx           # Root React component
-│   ├── Deepfake.jsx      # Deepfake detection UI
-│   ├── Sentinel.jsx      # Main dashboard/component
-│   ├── Url.jsx           # URL detection UI
-│   ├── index.css         # Global styles
-│   └── main.jsx          # React entry point
+│   ├── assets
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Deepfake.jsx
+│   ├── Sentinel.jsx
+│   ├── Url.jsx
+│   ├── index.css
+│   └── main.jsx
 │
-├── index.html            # Main HTML template
-├── package.json          # Project dependencies
-├── vite.config.js        # Vite configuration
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
 └── README.md
-Installation
+```
+
+---
+
+## ⚙️ Installation
 
 Clone the repository
 
+```bash
 git clone https://github.com/vedant05bhombe-netizen/Sentinel.git
+```
 
-Navigate into the project directory
+Move into the project directory
 
+```bash
 cd Sentinel
+```
 
 Install dependencies
 
+```bash
 npm install
-Running the Project
+```
+
+---
+
+## ▶️ Running the Project
 
 Start the development server
 
+```bash
 npm run dev
+```
 
-The application will run on
+The app will run on:
 
+```
 http://localhost:5173
-Usage
-Deepfake Detection
+```
 
-Navigate to the Deepfake Detector section.
+---
 
-Upload an image or video.
+## 🧠 How It Works
 
-The frontend sends the media to the backend API.
+### Deepfake Detection
 
-The result indicates whether the media is real or deepfake.
+1. User uploads an image/video
+2. Frontend sends media to backend API
+3. Backend model analyzes content
+4. Result returned as **Real / Deepfake**
 
-URL Detection
+---
 
-Go to the URL Detector section.
+### URL Detection
 
-Enter the URL you want to verify.
+1. User enters a URL
+2. URL is sent to backend
+3. Detection system checks for threats
+4. Result shows **Safe / Malicious**
 
-The system checks the URL against the detection API.
+---
 
-The result shows whether the URL is safe or malicious.
+## 📌 Future Improvements
 
-Future Improvements
+- 🔐 User authentication
+- 📊 Detection confidence score
+- 📱 Better responsive UI
+- ⚡ Real-time scanning
+- 📈 Detection analytics dashboard
 
-Add authentication
+---
 
-Display detection confidence scores
+## 👨‍💻 Author
 
-Support more media formats
+**Vedant Bhombe**
 
-Add real-time scanning
+3rd Year IT Student  
+Java • Python • React • Spring Boot • PostgreSQL
 
-Improve UI/UX
-
-Author
-
-Vedant Bhombe
-
-3rd Year IT Student
-Java | Python | React | Spring Boot | PostgreSQL
+---
